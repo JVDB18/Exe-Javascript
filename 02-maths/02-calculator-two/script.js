@@ -15,16 +15,16 @@
     var performOperation = function(operation) {
         // perform the operation
         switch(operation) {
-            case "addition": var result= parseFloat(document.getElementById("op-one").value) + parseFloat(document.getElementById("op-two").value);
+            case "addition": var result= parseInt(document.getElementById("op-one").value) + parseInt(document.getElementById("op-two").value);
             alert(result);
             break;
-            case "substraction": var result= parseFloat(document.getElementById("op-one").value) - parseFloat(document.getElementById("op-two").value);
+            case "substraction": var result= parseInt(document.getElementById("op-one").value) - parseInt(document.getElementById("op-two").value);
             alert(result);
             break;
-            case "multiplication": var result= parseFloat(document.getElementById("op-one").value) * parseFloat(document.getElementById("op-two").value);
+            case "multiplication": var result= parseInt(document.getElementById("op-one").value) * parseInt(document.getElementById("op-two").value);
             alert(result);
             break;
-            case "division": var result= parseFloat(document.getElementById("op-one").value) / parseFloat(document.getElementById("op-two").value);
+            case "division": var result= parseInt(document.getElementById("op-one").value) / parseInt(document.getElementById("op-two").value);
             alert(result);
             break;
         default: alert("brbrbr");
